@@ -56,7 +56,17 @@ class ApiProdutos extends Controller
     
         return response()->json(['message' => 'Produto excluído com sucesso'], 200);
     }
+
+
+    /**
+     * Exibir item por id
+     */
     
+     public function show($id){
+
+        return Api_produtos::findOrFail($id);
+
+     }
 
 
 
