@@ -1,7 +1,7 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "Sistema de autenticação e gerenciamento de usuários, utilizando Laravel Gates",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
