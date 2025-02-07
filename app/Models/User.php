@@ -42,4 +42,19 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+
+    /**
+     * Get the posts for the user.
+     */
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
+
+    
+    public function isAdministrator()
+    {
+        return $this->is_admin; // Assume que 'is_admin' é uma coluna booleana na tabela 'users'
+    }
 }
