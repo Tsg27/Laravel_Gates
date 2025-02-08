@@ -8,16 +8,18 @@ Este projeto é um sistema de autenticação e gestão de usuários desenvolvido
 </p>
 
 
+<img width="960" alt="img-index" src="https://github.com/user-attachments/assets/7c902b7c-d653-4442-b65b-072a9e509dee" />
 
-![imag-login](https://github.com/user-attachments/assets/bcd3cb59-ac41-4cb6-90f5-ab5a27fa380d)
-
-##
-
-![imag-index](https://github.com/user-attachments/assets/878c14df-9759-4c14-aca8-c6e191174462)
 
 ##
 
-![requisição HTTP-insomnia](https://github.com/user-attachments/assets/9c27350a-3d7b-40f9-92e8-da2f007dc12e)
+<img width="959" alt="img-profile" src="https://github.com/user-attachments/assets/15c69ebd-28a4-4f4b-bcc6-216edb343f22" />
+
+
+##
+
+<img width="956" alt="img-users" src="https://github.com/user-attachments/assets/ab5339f0-8fbb-4590-9a8f-88a30cf6efb2" />
+
 
 
 ### Funcionalidades
