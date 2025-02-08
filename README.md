@@ -1,5 +1,5 @@
 ## Sobre o Projeto
-Este projeto foi criado com fins práticos para explorar e aprofundar o desenvolvimento utilizando o framework Laravel. 
+Este projeto é um sistema de autenticação e gestão de usuários desenvolvido com Laravel. O sistema conta com um mecanismo de autenticação seguro e utiliza Laravel Gates para controle de permissões, garantindo que apenas usuários autorizados possam acessar determinadas funcionalidades. 
 
 <p align="center">
   <a href="https://laravel.com" target="_blank">
@@ -22,12 +22,12 @@ Este projeto foi criado com fins práticos para explorar e aprofundar o desenvol
 
 ### Funcionalidades
 
-- ✅ CRUD completo (Create, Read, Update, Delete),  incluindo um formulário de cadastro e edição.
-- ✅ Sistema de autenticação com login seguro
-- ✅ Integração com API para atualização e remoção de dados
-- ✅ Arquitetura bem estruturada seguindo boas práticas do Laravel  
+- ✅ Sistema de Autenticação Seguro – Implementação de login, logout e proteção de rotas.
+- ✅ Edição de Perfil – Formulário dedicado para que o usuário possa atualizar suas informações.
+- ✅ Controle de Acesso com Gates – Definição de permissões para restringir funcionalidades com   base no tipo de usuário.
+- ✅ Arquitetura Organizada – Segue boas práticas do Laravel, incluindo rotas protegidas, middleware e organização de controllers.  
 
-Este repositório é ideal para quem deseja aprender e praticar Laravel, além de servir como base para projetos mais avançados.  
+Este repositório é ideal para quem deseja aprender sobre *Laravel Gates*, além de servir como base para projetos mais avançados.  
 
 ---
 
