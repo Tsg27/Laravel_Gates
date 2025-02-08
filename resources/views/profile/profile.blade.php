@@ -19,7 +19,7 @@
                 <div class="mb-3">
                     <label for="email" class="form-label">E-mail</label>
                     <input type="email" class="form-control" id="email" name="email"
-                        value="{{ old('email', Auth::user()->email) }}" required readonly>
+                        value="{{ old('email', Auth::user()->email) }}" required>
                 </div>
 
                 <button type="submit" class="btn btn-primary btn-sm">Atualizar</button>

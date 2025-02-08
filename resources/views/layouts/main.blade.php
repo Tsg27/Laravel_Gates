@@ -24,13 +24,13 @@
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
             <li class="dropdown-item text-center"><strong>Olá, {{ Auth::user()->name }}</strong></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="/profile">Profile</a></li>
-            <li><a class="dropdown-item" href="/users">Settings</a></li>
+            <li><a class="dropdown-item" href="/profile">Perfil</a></li>
+            <li><a class="dropdown-item" href="/users">Configuração</a></li>
             <li><hr class="dropdown-divider"></li>
             <li>
                 <form action="{{ route('logout') }}" method="post">
                     @csrf
-                    <button type="submit" class="dropdown-item text-danger">Logout</button>
+                    <button type="submit" class="dropdown-item text-danger">Sair</button>
                 </form>
             </li>
         </ul>

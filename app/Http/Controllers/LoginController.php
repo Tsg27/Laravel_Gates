@@ -18,7 +18,6 @@ class LoginController extends Controller
     /**
      * Lidar com autenticação de usuário
      */
-
     public function auth(Request $request): RedirectResponse
     {
         $credentials = $request->validate([
@@ -43,7 +42,6 @@ class LoginController extends Controller
     /**
      * Destroy session de Usuário.
      */
-
     public function logout(Request $request): RedirectResponse
     {
         Auth::logout(); // Desloga o usuário
@@ -52,7 +50,7 @@ class LoginController extends Controller
 
         $request->session()->regenerateToken(); // Regenera o token da sessão
 
-        return redirect('/login')->withHeaders([
+        return redirect('/')->withHeaders([
             'Cache-Control' => 'no-cache, no-store, max-age=0, must-revalidate', // Desativa o cache
             'Pragma' => 'no-cache', // Desativa o cache
             'Expires' => 'Fri, 01 Jan 1990 00:00:00 GMT' // Data de expiração passada
